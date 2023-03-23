@@ -1,0 +1,196 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pantallaGrande {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.contacto {
+  display: grid;
+  grid-template-rows: 1fr 1fr 30px;
+}
+
+textarea {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 5px 20px 5px;
+  font-size: 20px;
+}
+
+body {
+  background-color: #131515;
+  font-family: "Roboto", sans-serif;
+  color: #F8F9FA;
+}
+
+header nav {
+  background-color: #7389ae;
+  border-style: solid;
+  border-color: #131515;
+  border-width: 0px 0px 1px 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  background-color: #7389ae;
+  color: #131515;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  margin: 15px 15px 0px 15px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 1px;
+}
+
+h4 {
+  margin: 0px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.seccionDebate {
+  text-align: center;
+}
+
+p {
+  background-color: #7389ae;
+  color: #131515;
+  font-size: x-small;
+  padding: 10px;
+  text-align: center;
+  margin: 0px 15px 15px 15px;
+}
+
+footer {
+  background-color: #505A5B;
+  max-height: 20%;
+}
+
+.offcanvas {
+  background-color: #131515;
+}
+.offcanvas a {
+  color: #F8F9FA;
+}
+.offcanvas a:visited {
+  color: #F8F9FA;
+}
+
+.offcanvas-title {
+  color: #7389ae;
+}
+
+.dropdown-menu {
+  background-color: #7389ae;
+}
+
+.navbar-brand {
+  margin: 0px;
+  font-size: medium;
+}
+
+img {
+  max-width: 40%;
+}
+
+.btn-close {
+  background-color: #7389ae;
+}
+
+.nav-link:hover {
+  color: #F8F9FA;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+.text-center ul {
+  margin-bottom: 100px;
+}
+
+.seccionDebate li {
+  padding: 10px;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    margin-bottom: 2px;
+    font-size: larger;
+  }
+  p {
+    font-size: medium;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 75px;
+  }
+  .nav-link {
+    text-align: right;
+  }
+  h3 {
+    margin-bottom: 3px;
+    font-size: xx-large;
+  }
+  p {
+    font-size: large;
+  }
+  .pantallaChica {
+    display: none;
+  }
+  header nav {
+    background-color: #7389ae;
+  }
+  .navbar-nav {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .textoContacto {
+    font-weight: 900;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

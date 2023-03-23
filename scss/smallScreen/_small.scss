@@ -1,0 +1,113 @@
+section {
+	margin-bottom: 100px;
+}
+form {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 16px;
+}
+.contacto {
+	display: grid;
+	grid-template-rows: 1fr 1fr 30px;
+}
+textarea {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+input {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h1 {
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	margin: 50px 5px 20px 5px;
+	font-size: 20px;
+}
+body {
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+header {
+	nav {
+		background-color: $background-color_2;
+		border-style: solid;
+		border-color: $border-color_1;
+		border-width: 0px 0px 1px 0px;
+	}
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	background-color: $background-color_2;
+	color: $color_2;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 5px;
+	margin: 15px 15px 0px 15px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 1px;
+}
+h4{
+    margin: 0px;
+    font-weight: 900;
+    font-style: italic;
+}
+.seccionDebate {
+	text-align: center;
+}
+p {
+	@include parrafo;
+}
+footer {
+	background-color: $background-color_3;
+	max-height: 20%;
+}
+.offcanvas {
+	background-color: $background-color_1;
+	a {
+		color: $color_1;
+		&:visited {
+			color: $color_1;
+		}
+	}
+}
+.offcanvas-title {
+	color: $color_3;
+}
+.dropdown-menu {
+	background-color: $background-color_2;
+}
+.navbar-brand {
+	margin: 0px;
+	font-size: medium;
+}
+img {
+	max-width: 40%;
+}
+.btn-close {
+	background-color: $background-color_2;
+}
+.nav-link {
+	&:hover {
+		color: $color_1;
+	}
+}
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+.text-center {
+	ul {
+		margin-bottom: 100px;
+	}
+}
+
+.seccionDebate li{
+	padding: 10px;
+}
